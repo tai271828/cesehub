@@ -7,3 +7,5 @@ permalink: /codes
 
 
 This page is under construction.
+
+\\[ \frac{1}{n^{2}} \\]
