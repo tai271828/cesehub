@@ -152,7 +152,9 @@ You could use your browser to confirm this. If everything looks OK, you can shar
 
 ### Publish Your Change to Your Github Account
 
-Because our gh-pages branch here is without 'CNAME' file and its configuration has been changed, this gh-pages branch is not suitable for further pull request of merging if you only focus on modifying the content of this website. Instead, we choose to publish all of changes through the 'dev' branch and use the gh-pages branch only for checking those modifications.
+If you have walked through the optional steps to remove CNAME or tweak the url of `_config.yml`, please revert the change.
+This is because these files, `CNAME` and `_config.yml`, of the target branch, gh-pages of cesehub repository, should not be changed to make the `cesehub.org` keep on working normally.
+We only focus on modifying the contents of this website, use `dev` branch to host the change of the website contents, and use `gh-pages` of your repository to check your content modification.
 
 Now you are ready to publish you code. Please go to your `dev` branch by
 
