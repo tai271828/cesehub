@@ -1,4 +1,4 @@
 name: The CESE Hub
 markdown: kramdown
 highlighter: rouge
-baseurl: /cesehub
+url: http://cesehub.org/
